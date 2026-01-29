@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -63,7 +63,7 @@
           <ul class="space-y-3 mt-10">
             <li>
               <a
-                href="/"
+                href="index.html"
                 class="flex items-center p-3 px-5 text-white rounded-lg bg-[#2947a9] group duration-300"
               >
                 <i class="fa-solid fa-grip"></i>
@@ -199,7 +199,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const sidebarButton = document.querySelector(
-          '[data-drawer-toggle="sidebar"]'
+          '[data-drawer-toggle="sidebar"]',
         );
         const sidebar = document.getElementById("sidebar");
         const close = document.getElementById("close");
@@ -316,7 +316,7 @@
 
       const chart = new ApexCharts(
         document.querySelector("#bar-chart"),
-        chartConfig
+        chartConfig,
       );
 
       chart.render();

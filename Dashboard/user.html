@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -63,7 +63,7 @@
           <ul class="space-y-3 mt-10">
             <li>
               <a
-                href="/"
+                href="index.html"
                 class="flex items-center p-3 px-5 text-[#595959] rounded-lg hover:bg-gray-100 group duration-300"
               >
                 <i class="fa-solid fa-grip"></i>
@@ -115,7 +115,10 @@
         <div class="p-4 rounded-t-md">
           <h2 class="text-2xl font-bold mb-5">User</h2>
           <div class="grid place-items-end">
-            <a href="add-user.html" class="bg-[#2947a9] text-white py-2 px-4 rounded my-3">
+            <a
+              href="add-user.html"
+              class="bg-[#2947a9] text-white py-2 px-4 rounded my-3"
+            >
               Add User
             </a>
           </div>
@@ -138,28 +141,36 @@
                   <td class="px-6 py-4">zaqkyuti@gmail</td>
                   <td class="px-6 py-4">088888888888</td>
                   <td class="px-6 py-4 text-green-500">Verified</td>
-                  <td class="px-6 py-4 text-blue-500"><a href="edit-user.html">Edit</a></td>
+                  <td class="px-6 py-4 text-blue-500">
+                    <a href="edit-user.html">Edit</a>
+                  </td>
                 </tr>
                 <tr class="bg-white border-b-2">
                   <td class="px-6 py-4">Husen</td>
                   <td class="px-6 py-4">husenimut@gmail</td>
                   <td class="px-6 py-4">0882515151</td>
                   <td class="px-6 py-4 text-green-500">Verified</td>
-                  <td class="px-6 py-4 text-blue-500"><a href="edit-user.html">Edit</a></td>
+                  <td class="px-6 py-4 text-blue-500">
+                    <a href="edit-user.html">Edit</a>
+                  </td>
                 </tr>
                 <tr class="bg-white border-b-2">
                   <td class="px-6 py-4">Fiki</td>
                   <td class="px-6 py-4">fikialim@gmail</td>
                   <td class="px-6 py-4">0882141241</td>
                   <td class="px-6 py-4 text-red-500">Not Verified</td>
-                  <td class="px-6 py-4 text-blue-500"><a href="edit-user.html">Edit</a></td>
+                  <td class="px-6 py-4 text-blue-500">
+                    <a href="edit-user.html">Edit</a>
+                  </td>
                 </tr>
                 <tr class="bg-white border-b-2">
                   <td class="px-6 py-4">Prama</td>
                   <td class="px-6 py-4">bosprama@gmail</td>
                   <td class="px-6 py-4">0882566141241</td>
                   <td class="px-6 py-4 text-green-500">Verified</td>
-                  <td class="px-6 py-4 text-blue-500"><a href="edit-user.html">Edit</a></td>
+                  <td class="px-6 py-4 text-blue-500">
+                    <a href="edit-user.html">Edit</a>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -260,7 +271,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const sidebarButton = document.querySelector(
-          '[data-drawer-toggle="sidebar"]'
+          '[data-drawer-toggle="sidebar"]',
         );
         const sidebar = document.getElementById("sidebar");
         const close = document.getElementById("close");
